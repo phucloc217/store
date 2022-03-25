@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+  <nav class="navbar navbar-expand-lg sticky-top pe-5" id="navbar">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown me-5">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Sản phẩm
           </a>
@@ -45,7 +45,7 @@
 
 <script>
 export default {
-    
+     name: 'NavbarMenu',
 }
 </script>
 
@@ -54,7 +54,7 @@ export default {
     background-color: #211a10 !important;
  
 }
-#navbar a{
+a.nav-link{
        color: white !important;
        font-weight: bold;
 }
