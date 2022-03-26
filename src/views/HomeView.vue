@@ -1,6 +1,6 @@
 <template>
   <div class="m-0">
-    <section class="row vh-100 p-3 m-0" id="new-product">
+    <section class="row vh-100 p-3 m-0 pe-0" id="new-product">
       <div class="col-md-6 col-sm-8 p-0">
         <img
           src="../assets/img/s3.jpg"
@@ -15,7 +15,7 @@
             <h1 class="fw-bold text-light text-center">Sản phẩm mới</h1>
             <button class="btn btn-primary">Mua ngay</button>
           </div>
-          <div class="row ">
+          <div class="row pe-0">
             <div class="row">
               <div class="col">
                 <div
@@ -50,14 +50,17 @@
                 </div>
               </div>
             </div>
-            <div class="row p-2 pe-0 m-0 " style="background-color:#A68A6D;">
-              <p class="text-light p-0 m-0">
+            <div class="row p-2 pe-0 m-0 ps-5 pt-5" style="background-color:#A68A6D;">
+              <p class="text-light p-0 m-0 ps-5 ms-5 w-75">
                  Một sản phẩm tuyệt vời do Eames thiết kế luôn có sức hút và lan truyền kỳ lạ, từ những tạp chí nội thất nổi tiếng đến những nhà hàng khách sạn sang trọng hay trong các gia đình tầng lớp thượng lưu bạn đều có thể bắt gặp.
               </p>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <section class="row vh-100 p-3 m-0 h-100" id="section2">
+      
     </section>
   </div>
 </template>
@@ -79,5 +82,9 @@ export default {
 
 #card {
   top: 470px;
+}
+#section2{
+  background-image: url('@/assets/img/p2.png');
+  background-size: cover;
 }
 </style>
