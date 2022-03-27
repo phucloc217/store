@@ -36,10 +36,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a name="" id="" class="btn btn-secondary btn-sm" href="#" role="button">Đăng nhập</a>
+          <button class="btn btn-secondary btn-sm" href="#" role="button">Đăng nhập</button>
         </li>
         <li class="nav-item ms-2">
-          <a name="" id="" class="btn btn-secondary btn-sm" href="#" role="button">Đăng ký</a>
+          <button class="btn btn-secondary btn-sm" href="#" role="button">Đăng ký</button>
         </li>
       </ul>
      

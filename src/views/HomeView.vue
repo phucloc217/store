@@ -55,7 +55,7 @@
               style="background-color: #a68a6d"
             >
               <div class="ps-5">
-                <p class="text-light lh-lg p-0 m-0 ps-5 pt-5 ms-5 w-75 ms-5">
+                <p class="text-light fs-5 lh-lg p-0 m-0 ps-5 pt-1 ms-5 w-75 ms-5">
                   Một sản phẩm tuyệt vời do Eames thiết kế luôn có sức hút và
                   lan truyền kỳ lạ, từ những tạp chí nội thất nổi tiếng đến
                   những nhà hàng khách sạn sang trọng hay trong các gia đình
@@ -79,7 +79,8 @@
             srcset=""
             class="
               overflow-visible
-              img-fluid
+              h-100
+              w-auto
               p-4
               ms-5
               position-absolute
@@ -89,7 +90,7 @@
             "
           />
         </div>
-        <div class="col-md-10 col-sm-8 position-relative pt-5">
+        <div class="col-md-10 col-sm-8 position-relative pt-5 ps-5">
           <h1
             id="Aaron"
             class="mt-5 position-absolute bottom-25 end-50 translate-middle"
@@ -97,7 +98,7 @@
             Aaron
           </h1>
           <div class="d-flex align-items-end h-100">
-            <p class="p-3 mb-5 fs-5 lh-lg" id="text-section2">
+            <p class="p-3 ps-5 mb-5 ms-5 fs-5 lh-lg" id="text-section2">
               Đến với Aaron, bạn có thể tìm cho mình những bộ bàn ghế phòng
               khách, những bộ sofa, ghế bành, nội thất phòng khách, phòng ngủ,..
               tuyệt đẹp cho căn nhà của mình.
@@ -120,10 +121,31 @@
         </p>
       </div>
       <div
-        class="col-md-7 col-sm-12 h-100 ps-0 pt-3 d-flex align-items-end position-relative"
+        class="
+          col-md-7 col-sm-12
+          h-100
+          ps-0
+          pt-3
+          d-flex
+          align-items-end
+          position-relative
+        "
         style="background-color: #211a11"
       >
-        <div class="row w-50 h-auto p-3 ms-5 position-absolute top-25 start-50 translate-middle" style="background-color:#A68A6D;">
+        <div
+          class="
+            row
+            w-50
+            h-auto
+            p-3
+            ms-5
+            position-absolute
+            top-25
+            start-50
+            translate-middle
+          "
+          style="background-color: #a68a6d"
+        >
           <h1 class="text-light">Về chúng tôi</h1>
           <p class="text-light">
             PHUC LOC LUXURY INTERIOR mang sứ mệnh đem đến những sản phẩm nội

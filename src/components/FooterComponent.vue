@@ -17,8 +17,7 @@
 
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            PHUC LOC LUXURY INTERIOR mang sứ mệnh đem đến những sản phẩm nội thất sang trọng, phù hợp dành riêng cho ngôi nhà của bạn.
           </p>
         </div>
         <!-- Grid column -->
@@ -88,8 +87,8 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">PHUC LOC LUXURY INTERIOR</a>
   </div>
   <!-- Copyright -->
 </footer>
