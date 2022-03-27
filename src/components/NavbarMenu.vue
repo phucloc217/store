@@ -35,7 +35,12 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-       
+        <li class="nav-item">
+          <a name="" id="" class="btn btn-secondary btn-sm" href="#" role="button">Đăng nhập</a>
+        </li>
+        <li class="nav-item ms-2">
+          <a name="" id="" class="btn btn-secondary btn-sm" href="#" role="button">Đăng ký</a>
+        </li>
       </ul>
      
     </div>

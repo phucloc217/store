@@ -68,11 +68,11 @@
       </div>
     </section>
     <section class="row vh-100 p-3 m-0 h-100 position-relative" id="section2">
-      <div class="w-50 h-75 row position-absolute
-              top-50
-              start-50
-              translate-middle" style="background-color: #d4c7c0">
-        <div class="col position-relative">
+      <div
+        class="w-50 h-75 row position-absolute top-50 start-50 translate-middle"
+        style="background-color: #d4c7c0"
+      >
+        <div class="col-md-2 col-sm-8 position-relative">
           <img
             src="../assets/img/p31.webp"
             alt=""
@@ -89,13 +89,56 @@
             "
           />
         </div>
-        <div class="col">
-          <h1>Aaron</h1>
-          <p class="p-3">
-            Đến với Aaron, bạn có thể tìm cho mình những bộ bàn ghế phòng khách,
-            những bộ sofa, ghế bành, nội thất phòng khách, phòng ngủ,.. tuyệt
-            đẹp cho căn nhà của mình.
+        <div class="col-md-10 col-sm-8 position-relative pt-5">
+          <h1
+            id="Aaron"
+            class="mt-5 position-absolute bottom-25 end-50 translate-middle"
+          >
+            Aaron
+          </h1>
+          <div class="d-flex align-items-end h-100">
+            <p class="p-3 mb-5 fs-5 lh-lg" id="text-section2">
+              Đến với Aaron, bạn có thể tìm cho mình những bộ bàn ghế phòng
+              khách, những bộ sofa, ghế bành, nội thất phòng khách, phòng ngủ,..
+              tuyệt đẹp cho căn nhà của mình.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row vh-100 p-0 m-0" id="section3">
+      <div
+        class="col-md-5 col-sm-12 p-3 ps-5 pt-5 h-100"
+        style="background-color: #a68a6d"
+      >
+        <h1 class="text-light fw-bold ms-4 mt-5">Nội thất sang trọng</h1>
+        <p class="fs-5 fw-light text-light ms-4 lh-lg mt-5 pe-5">
+          Thiết kế nội thất chính là bước “thổi hồn” vào không gian sống khi ban
+          đầu chỉ có gỗ, đá thô kệch. Nội thất có đẹp có tiện ích về công năng,
+          sẽ mang lại năng lượng tích cực cả về sức khỏe và tinh thần cho gia
+          chủ.
+        </p>
+      </div>
+      <div
+        class="col-md-7 col-sm-12 h-100 ps-0 pt-3 d-flex align-items-end position-relative"
+        style="background-color: #211a11"
+      >
+        <div class="row w-50 h-auto p-3 ms-5 position-absolute top-25 start-50 translate-middle" style="background-color:#A68A6D;">
+          <h1 class="text-light">Về chúng tôi</h1>
+          <p class="text-light">
+            PHUC LOC LUXURY INTERIOR mang sứ mệnh đem đến những sản phẩm nội
+            thất sang trọng, phù hợp dành riêng cho ngôi nhà của bạn.
           </p>
+        </div>
+        <div class="row mt-5">
+          <div class="col w-75">
+            <img
+              src="../assets/img/p3.webp"
+              alt=""
+              srcset=""
+              class="img-fluid h-75 w-auto ms-0"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -113,6 +156,23 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+  font-family: Virtual;
+  src: url("@/assets/font/Virtual-Regular.ttf");
+}
+@font-face {
+  font-family: RoxboroughCF;
+  src: url("@/assets/font/RoxboroughCF-Thin.otf");
+}
+#section2 {
+  font-family: RoxboroughCF;
+  color: #4a3022;
+}
+#Aaron {
+  font-family: Virtual;
+  font-size: 10rem;
+  color: #4a3022;
+}
 #new-product {
   background-color: #211a10;
 }
